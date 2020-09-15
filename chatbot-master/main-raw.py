@@ -11,7 +11,7 @@ else:
 
 # kernel now ready for use
 while True:
-    message = raw_input("Enter your message to the bot: ")
+    message = raw_input("Tell your message to the bot: ")
     if message == "quit":
         exit()
     elif message == "save":
